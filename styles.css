@@ -1,0 +1,81 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 2% 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 127, 0, 0.1)), url("https://robbreport.com/wp-content/uploads/2022/06/Pizzeria_Bianco_dining_room.jpg?w=1000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f5f6f7;
+    font-size: 20px;
+    font-family: Georgia;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    background-color: rgba(75, 36, 0, 0.95);
+    border-radius: 15px;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  input, select {
+    height: 2em;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    margin: 1em 0 0 0;
+    color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(41, 18, 0, 1);
+    border: 2px solid rgba(41, 18, 0, 1);
+    resize: none;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    border: 2px solid rgba(123, 54, 0, 1);
+    outline: none;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  fieldset {
+    border:none;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    color: black;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgba(200, 100, 0, 1);
+    border: none;
+    min-width: 300px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgba(150, 75, 0, 1);
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
